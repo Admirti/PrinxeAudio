@@ -1,0 +1,10 @@
+<form class="form-signin" id="contact_form" (ngSubmit)="onSubmit(f)" #f="ngForm">
+        <label class="sr-only">Email address</label>
+        <input id="name" type="text" name="name"  class="form-control form-width form-primary" placeholder="Your Name" ngModel >
+        <input type="email" id="email" name="email" class="form-control form-width" placeholder="Your Email" ngModel >
+        <textarea class="form-control form-comments" id="content" name="content" class="form-control" ngModel placeholder="Your Message" ></textarea>
+        <div class="btn-wrap">
+            <input type="submit" class="btn btn-primary btn-send">
+        </div>
+        <!-- // end #js-contact-result -->
+    </form>
